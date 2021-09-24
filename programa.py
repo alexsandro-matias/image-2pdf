@@ -39,4 +39,10 @@ def exitApplication():
 exitButton = tk.Button (root, text='Exit Application',command=exitApplication, bg='brown', fg='white', font=('helvetica', 12, 'bold'))
 canvas1.create_window(150, 230, window=exitButton)
 
+<<<<<<< HEAD
 root.mainloop()
+=======
+imagem = Image.open(r'image.png')
+arquivo_pdf = image1.convert('RGB')
+arquivo_pdf.save(r'doc.pdf')
+>>>>>>> 032038323b0151d6b1d0e03b0258718fe11876fe
