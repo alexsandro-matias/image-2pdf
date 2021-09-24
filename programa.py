@@ -2,6 +2,6 @@
 
 from PIL import Image
 
-image1 = Image.open(r'image.png')
-im1 = image1.convert('RGB')
-im1.save(r'doc.pdf')
+imagem = Image.open(r'image.png')
+arquivo_pdf = image1.convert('RGB')
+arquivo_pdf.save(r'doc.pdf')
