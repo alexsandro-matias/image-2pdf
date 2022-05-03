@@ -1,0 +1,4 @@
+arquivos.txt
+imagens/
+programa_terminal.py
+video_josiane_maria_dos_santos.mp4
